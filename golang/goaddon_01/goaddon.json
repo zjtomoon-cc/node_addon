@@ -1,0 +1,21 @@
+{
+  "name": "demoaddon",
+  "sources": [
+    "demoaddon.go"
+  ],
+  "output": "./demoaddon/",
+  "exports": [
+    {
+      "name": "Hello",
+      "args": [
+        {
+          "name": "name",
+          "type": "string"
+        }
+      ],
+      "returntype": "string",
+      "jscallname": "hello",
+      "jscallmode": "sync"
+    }
+  ]
+}
